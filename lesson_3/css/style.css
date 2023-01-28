@@ -1,0 +1,27 @@
+h1 {
+   color: yellowgreen;
+}
+
+.first_content p {
+   color: violet;
+}
+
+.piece_of_text {
+   color: chocolate;
+}
+
+.first_content a {
+   color: brown;
+}
+
+.second_content>p {
+   color: darkorange;
+}
+
+.piece_of_content {
+   color: deeppink;
+}
+
+[class*="ul_piece"] {
+   color: deepskyblue;
+}
