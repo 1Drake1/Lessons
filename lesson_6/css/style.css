@@ -1,6 +1,7 @@
 @import url("reset.css");
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
 
+
 .first_piece {
    margin: 0 0 80px 0;
 }
@@ -105,4 +106,43 @@
 
 .image_margin_01 {
    margin: 0 30px 0 0;
+}
+
+main {
+   margin-bottom: 300px;
+}
+
+.test_block {
+   max-width: 900px;
+   margin: 0 auto;
+   font-size: 30px;
+}
+
+.test_block p {
+   margin-bottom: 100px;
+   padding: 20px;
+}
+
+.test_block .box_shadow {
+   box-shadow: 0 0 35px rgb(126, 95, 95);
+   border-radius: 50px;
+   overflow: hidden;
+   padding: 0;
+}
+
+.dotted {
+   border: 10px rgb(177, 98, 98) dotted;
+   border-radius: 10px;
+}
+
+.dashed {
+   border: 10px dashed #000;
+}
+
+.solid {
+   border: 10px solid #5a1f1f;
+}
+
+.outline {
+   outline: 10px solid greenyellow;
 }
