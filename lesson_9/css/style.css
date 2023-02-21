@@ -1,0 +1,98 @@
+@import url("reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+body {
+   background: #6757;
+}
+
+[class*="_container"] {
+   max-width: 1240px;
+   padding: 0 15px 0 15px;
+   margin: 0 auto;
+}
+
+.text_decoration {
+   margin-top: 50px;
+}
+
+h2 {
+   font-weight: 700;
+   font-family: "Inter";
+   color: #4e7551;
+   text-align: center;
+   font-size: 50px;
+   margin-bottom: 50px;
+}
+
+.logo img {
+
+   padding: 0 30px;
+}
+
+.logo img:first-child {
+   padding: 0 30px 0 0;
+}
+
+.logo img:last-child {
+   padding: 0 0 0 30px;
+}
+
+.logo {
+   margin-bottom: 50px;
+}
+
+[class*="block"] {
+   margin-bottom: 15px;
+}
+
+.content img:first-child {
+   padding: 0 5px 0 0;
+}
+
+.content img:last-child {
+   padding: 0 0 0 5px;
+}
+
+.content {
+   font-size: 0;
+}
+
+.content img {
+   width: 24%;
+   border-radius: 30px;
+   padding: 0 5px;
+}
+
+.icons img {
+
+   padding: 0 20px;
+}
+
+.icons img:first-child {
+   padding: 0 20px 0 0;
+}
+
+.icons img:last-child {
+   padding: 0 0 0 20px;
+}
+
+.icons {
+   margin-bottom: 50px;
+}
+
+.decoration img {
+
+   padding: 0 20px;
+}
+
+.decoration img:first-child {
+   padding: 0 20px 0 0;
+}
+
+.decoration img:last-child {
+   padding: 0 0 0 20px;
+}
+
+.decoration {
+   margin-bottom: 50px;
+}
