@@ -1,0 +1,265 @@
+@import url("reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+
+.wrapper {
+   overflow: clip;
+   min-height: 100%;
+}
+
+[class*="__container"] {
+   margin: 0 auto;
+   padding: 0 15px;
+   max-width: 1230px;
+}
+
+
+[class*="-circle"] {
+   position: absolute;
+   width: 100px;
+   height: 100px;
+   border-radius: 50%;
+   background: #000;
+   border: 7px dashed #4d4b4b;
+}
+
+.main-content:hover .main__item-circle-one {
+   transform: rotate(360deg);
+   transition: transform 1s;
+}
+
+.main-content:hover .main__item-circle-two {
+   transform: rotate(360deg);
+   transition: transform 1s;
+}
+
+.main__items {
+   position: relative;
+}
+
+.main__item-circle-one {
+   top: 45%;
+   left: 76%;
+}
+
+.main__item-circle-two {
+   top: 45%;
+   left: 5%;
+}
+
+
+
+.main__item-body-car {
+   position: absolute;
+   top: 200px;
+   left: 10%;
+   width: 800px;
+   height: 100px;
+   background: rgb(155, 59, 59);
+   border-radius: 20px 20px 0 0;
+   z-index: 4;
+}
+
+
+.car__light {
+   position: absolute;
+   width: 30px;
+   height: 15px;
+   background: yellow;
+   box-shadow: 0 0 10px yellow;
+   border-radius: 20px 0 0 20px;
+   top: 20px;
+   right: 0;
+}
+
+.car__back-light {
+   position: absolute;
+   width: 30px;
+   height: 30px;
+   background: rgb(255, 51, 0);
+   box-shadow: 0 0 10px rgb(255, 51, 0);
+   border-radius: 0 20px 20px 0;
+   top: 20px;
+   left: 0;
+}
+
+.car__roof-car {
+   position: absolute;
+   width: 300px;
+   height: 100px;
+   background: rgb(155, 59, 59);
+   border-radius: 10px 10px 0 0;
+   border-bottom: 5px solid #000;
+   top: -96%;
+   left: 21%;
+   z-index: 0;
+   overflow: hidden;
+
+}
+
+[class*="window"] {
+   position: absolute;
+   width: 95px;
+   height: 75px;
+   background: linear-gradient(315deg, hsla(199, 68%, 48%, 1) 0%, hsla(199, 68%, 48%, 1) 26%, hsla(0, 0%, 100%, 1) 46%, hsla(199, 68%, 48%, 1) 64%, hsla(197, 48%, 60%, 1) 82%);
+   border-radius: 10px 10px 0 0;
+   overflow: hidden;
+   outline: 1px solid #000;
+}
+
+.car__window-one {
+   transform: translate(35%, 26%);
+
+}
+
+.car__window-two {
+   transition: all 0.7s;
+   transform: translate(180%, 26%);
+}
+
+.car__roof-car:hover .car__window-two {
+   transform: translate(180%, 100%);
+   transition: all 0.7s;
+}
+
+.car__black {
+   position: absolute;
+   transform: translate(180%, 26%);
+   width: 95px;
+   height: 75px;
+   border-radius: 10px 10px 0 0;
+   background: #000;
+   z-index: -1;
+}
+
+.car__exhaust {
+   position: absolute;
+   width: 15px;
+   height: 10px;
+   background: gray;
+   transform: translate(-90%, 750%);
+   z-index: -1;
+}
+
+.main__item-road {
+   position: absolute;
+   height: 35px;
+   width: 100%;
+   background: #000;
+   transform: translate(0, 950%);
+}
+
+.car__light-beam {
+   visibility: hidden;
+   position: absolute;
+   width: 350px;
+   border-bottom: 300px solid #e6c5087c;
+   border-right: 180px solid transparent;
+   border-left: 290px solid transparent;
+   transform: rotate(142deg) skew(31deg, 32deg) translate(-340px, 160px);
+}
+
+.car__light:hover .car__light-beam {
+   visibility: visible;
+}
+
+[class*="header__item"] {
+   width: 175px;
+   height: 175px;
+   background: linear-gradient(270deg, hsla(261, 100%, 55%, 1) 0%, hsla(37, 100%, 64%, 1) 100%);
+   padding: 20px;
+   text-align: center;
+   font-size: 16px;
+   font-family: "Inter";
+   font-weight: 600;
+   line-height: 130px;
+   transition: all 1s;
+}
+
+.header__body {
+   font-size: 0;
+}
+
+.header__row {
+   display: inline-block;
+}
+
+.header__block-wrapper {
+   background: rgba(128, 128, 128, 0.411);
+   width: 175px;
+   height: 175px;
+   margin: 20px;
+
+}
+
+.header__block-wrapper:hover .header__item-rotate {
+   transform: rotate(360deg);
+   transition: all .5s;
+}
+
+.header__block-wrapper:hover .header__item-transform-origin {
+   transform-origin: right top;
+   transform: scale(0.5);
+   transition: all .5s;
+}
+
+.header__block-wrapper:hover .header__item-translate-3d {
+   transform: translate3d(-50px, -50px, 0);
+}
+
+.wrapper3d {
+   perspective: 400px;
+}
+
+.wrapper3d2 {
+   perspective: 500px;
+   transform-style: preserve-3d;
+   perspective-origin: center;
+}
+
+.header__block-wrapper:hover .header__item-perspective {
+   transform: rotateX(180deg);
+}
+
+.header__block-wrapper:hover .header__item-rotate-3d {
+   transform: rotate3d(1.5, 1.5, 1.5, 180deg);
+}
+
+.header__item-transform-style:hover {
+   transform: rotateX(60deg);
+
+}
+
+.card__wrapper {}
+
+.flip {
+   perspective-origin: center;
+   perspective: 500px;
+   transform-style: preserve-3d;
+}
+
+.flip__body {
+   position: relative;
+   transform-style: preserve-3d;
+   transition: all 1s;
+}
+
+.front {
+   position: relative;
+   z-index: 2;
+   transform: rotate(0deg);
+   backface-visibility: hidden;
+}
+
+.back {
+   position: absolute;
+   top: 0;
+   left: 0;
+   background: yellow;
+   transform: rotateY(-180deg);
+}
+
+.flip:hover .flip__body {
+   transform: rotateY(-180deg);
+   transition: all 1s;
+}
