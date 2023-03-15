@@ -25,6 +25,8 @@
 
 .main__block {
    padding: 50px 0;
+   display: flex;
+   flex-direction: column;
 }
 
 .main__choose-items {
@@ -155,8 +157,8 @@
    flex-grow: 1;
 }
 
-.main__button-more a {
-   padding: 12px 50px;
+.main__button-more {
+   padding: 8px 50px;
    background: #212529;
    border-radius: 3px;
    font-family: 'Poppins';
@@ -169,7 +171,7 @@
    transition: transform 0.3s, background 0.3s;
 }
 
-.main__button-more a:hover {
+.main__button-more:hover {
    transform: scale(1.0100);
    background: #474646;
 }
