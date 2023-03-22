@@ -311,6 +311,10 @@ textarea:not(:last-child) {
    font-family: 'Inter';
 }
 
+.third-form:not(:last-child) {
+   margin-bottom: 55px;
+}
+
 .third-form__container {
    max-width: 730px;
    padding: 0 15px;
