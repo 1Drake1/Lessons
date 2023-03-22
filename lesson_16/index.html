@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/style.css">
+   <title>Lesson 16</title>
+</head>
+
+<body>
+   <div class="wrapper">
+      <header class="header-page header">
+      </header>
+      <main class="main-page main">
+         <div class="main__container">
+            <form action="#" method="post" enctype="multipart/form-data" class=" first-form form">
+               <div class="form__title form-title-style">
+                  Shipping Address
+               </div>
+               <div class="form__input-login-box">
+                  <div class="form__input-box email-box">
+                     <label for="input-01-email">Email Address<span class="red-star">*</span></label>
+                     <input id="input-01-email" type="email" name="email" value="roni_cost@example.com" required>
+                  </div>
+                  <div class="form__input-box pass-box">
+                     <label for="input-02-pass">Password</label>
+                     <input id="input-02-pass" type="password" name="pass" value="******************">
+                  </div>
+                  <div class="form__input-box pass-box">
+                     <label for="input-03-code">Zip/Postal Code</label>
+                     <input id="input-03-code" type="type" name="verify-code">
+                  </div>
+               </div>
+               <div class="form__text">
+                  <p>You already have an account with us. Sign in or continue as guest.</p>
+               </div>
+               <div class="form__buttons">
+                  <button class="button-login button-black" type="submit">Login</button>
+                  <button class="button-f-y-p" type="button">Forgot your password?</button>
+               </div>
+            </form>
+            <form action="#" method="post" enctype="multipart/form-data" class=" second-form form">
+               <div class="form__input-registar-box">
+                  <div class="form__input-box first-name-box">
+                     <label for="input-04-first-name">First name<span class="red-star">*</span></label>
+                     <input id="input-04-first-name" type="text" name="first-name" required>
+                  </div>
+                  <div class="form__input-box last-name-box">
+                     <label for="input-05-last-name">Last name<span class="red-star">*</span></label>
+                     <input id="input-05-last-name" type="text" name="last-name" required>
+                  </div>
+                  <div class="form__input-box company-name-box">
+                     <label for="input-06-company-name">Company</label>
+                     <input id="input-06-company-name" type="text" name="company-name">
+                  </div>
+                  <div class="form__input-box address-box">
+                     <label for="input-07-address">Street Address<span class="red-star">*</span></label>
+                     <div class="flex-input">
+                        <input required id="input-07-address" type="text" name="address">
+                        <input required id="input-07-address" type="text" name="address">
+                        <input required id="input-07-address" type="text" name="address">
+                     </div>
+                  </div>
+                  <div class="form__input-box country-box">
+                     <label for="input-08-country">Country<span class="red-star">*</span></label>
+                     <input required id="input-08-country" type="text" name="country">
+                  </div>
+                  <div class="form__input-box state-box">
+                     <label for="input-09-state">State/Province<span class="red-star">*</span></label>
+                     <input required id="input-09-state" type="text" name="state">
+                  </div>
+               </div>
+               <div class="form__product-type type-product">
+                  <div class="type-product__title form-title-style">Shipping Methods</div>
+                  <div class="type-product-box type">
+                     <div class="type__column">
+                        <div class="type__row">
+                           <input id="input-10-type" type="radio" name="type-of-product" value="type">
+                           <label for="input-10-type">$5.00</label>
+                           <div class="type__name-of-type">
+                              <div class="type__text">Fixed</div>
+                              <div class="type__text">Flat Rate</div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="type__column">
+                        <div class="type__row">
+                           <input id="input-11-type" type="radio" name="type-of-product" value="type">
+                           <label for="input-11-type">$10.00</label>
+                           <div class="type__name-of-type">
+                              <div class="type__text">Table Rate</div>
+                              <div class="type__text">Best Way</div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="form__buttons-next-back">
+                  <button class="button-next button-black">Next</button>
+                  <button class="button-back">Back</button>
+               </div>
+            </form>
+         </div>
+      </main>
+      <footer>
+         <div class="third-form__container">
+            <form action="#" method="post" enctype="multipart/form-data" class="third-form form">
+               <div class="third-form__title">Billing Details</div>
+               <div class="form__input-details-box details">
+                  <div class="details-row">
+                     <div class="details-input-box name-box">
+                        <input placeholder="First name*" name="first-name" type="text">
+                     </div>
+                     <div class="details-input-box name-box">
+                        <input placeholder="Last name*" name="last-name" type="text">
+                     </div>
+                  </div>
+                  <div class="details-row">
+                     <div class="details-input-box address-box">
+                        <input placeholder="Address*" name="address" type="text">
+                     </div>
+                     <div class="details-input-box address-box">
+                        <input placeholder="Address line 2" name="Address-line-2" type="text">
+                     </div>
+                  </div>
+                  <div class="details-row">
+                     <div class="details-input-box country-box arrow">
+                        <input placeholder="Country*" name="country" type="text">
+                     </div>
+                     <div class="details-input-box country-box"">
+                        <input placeholder=" City/Town*" name="city-town" type="text">
+                     </div>
+                  </div>
+                  <div class="details-row">
+                     <div class="details-input-box code-box">
+                        <input placeholder="Postcode / ZIP*" name="post-code" type="text">
+                     </div>
+                     <div class="details-input-box code-box">
+                        <input placeholder="Phone*" name="phone" type="text">
+                     </div>
+                  </div>
+                  <div class="details-row">
+                     <div class="details-input-box code-box">
+                        <input placeholder="Postcode / ZIP*" name="post-code" type="text">
+                     </div>
+                     <div class="details-input-box code-box"">
+                        <input placeholder=" Phone*" name="phone" type="text">
+                     </div>
+                  </div>
+                  <textarea placeholder="Additional information" name="text-from-text-area"></textarea>
+               </div>
+               <div class="details__box-checkbox">
+                  <div class="details__checkbox">
+                     <input name="create" id="checkbox-01-create-acc" type="checkbox">
+                     <label for="checkbox-01-create-acc">Create Account</label>
+                  </div>
+                  <div class="details__checkbox">
+                     <input id="checkbox-02-diff-address" type="checkbox">
+                     <label for="checkbox-02-diff-address">Ship to a different address?</label>
+                  </div>
+               </div>
+               <form method="post" enctype="multipart/form-data" action="#" class="discount-code-form discount">
+                  <div class="discount__title">Apply Coupon to get discount!</div>
+                  <div class="discount__input-area">
+                     <input id="" placeholder="Coupon code" type="text">
+                     <button class="apply-button" type="button">Apply Code</button>
+                  </div>
+               </form>
+            </form>
+         </div>
+      </footer>
+   </div>
+</body>
+
+</html>
