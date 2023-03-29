@@ -201,7 +201,7 @@
 .main__topic-categories-block {
    display: flex;
    gap: 30px;
-   padding-top: 100px;
+   padding-top: 60px;
 }
 
 .search {
@@ -300,6 +300,7 @@
 .arcticle__text {
    transition: color 0.3s;
 }
+
 
 @media (any-hover:hover) {
 
