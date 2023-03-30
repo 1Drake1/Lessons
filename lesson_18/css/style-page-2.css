@@ -25,7 +25,13 @@
    font-weight: 500;
    font-size: 12px;
    line-height: 2.08;
+   top: 0;
+   left: 0;
+   position: fixed;
+   width: 100%;
+   z-index: 99;
    color: rgba(73, 80, 87, 0.5);
+   background: #fff;
 }
 
 .header__container {
