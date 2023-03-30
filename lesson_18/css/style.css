@@ -530,7 +530,7 @@
       display: none;
    }
 
-   .menu__body {
+   /* .menu__body {
       position: fixed;
       display: block;
       left: 0;
@@ -540,7 +540,7 @@
       height: 100%;
       padding: 120px 20px 0 20px;
       background: #e2e0e0;
-   }
+   } */
 
    .menu__body::after {
       position: fixed;
