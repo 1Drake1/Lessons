@@ -181,7 +181,7 @@
 .main__container {}
 
 .main__slider {
-   background: url(../img/pic-content.png) center center / cover no-repeat;
+   background: url(../img/pic-content.webp) center center / cover no-repeat;
 
 }
 
@@ -510,6 +510,7 @@
    }
 
    .sub-menu {
+      display: block;
       position: relative;
       visibility: visible;
       opacity: 1;
@@ -529,7 +530,7 @@
       display: none;
    }
 
-   /* .menu__body {
+   .menu__body {
       position: fixed;
       display: block;
       left: 0;
@@ -539,7 +540,7 @@
       height: 100%;
       padding: 120px 20px 0 20px;
       background: #e2e0e0;
-   } */
+   }
 
    .menu__body::after {
       position: fixed;
