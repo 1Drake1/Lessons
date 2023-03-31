@@ -593,6 +593,10 @@
       font-size: 18px;
       justify-content: center;
    }
+
+   .main__topic-categories-block {
+      padding: 50px 0;
+   }
 }
 
 @media (max-width:600px) {
