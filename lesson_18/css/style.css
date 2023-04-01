@@ -299,11 +299,13 @@
 .main__posts-column {
    display: flex;
    flex-direction: column;
+   align-items: center;
    gap: 40px;
 }
 
 .main__posts-card {
    display: flex;
+   justify-content: center;
    gap: 30px;
 }
 
@@ -326,6 +328,7 @@
 
 .card__image {
    overflow: hidden;
+   display: flex;
 }
 
 .card__image img {
