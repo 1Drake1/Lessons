@@ -1,0 +1,49 @@
+body {
+   font-family: "Inter", sans-serif;
+   color: #637381;
+}
+
+.article-title {
+   font-weight: 600;
+   font-size: 28px;
+   line-height: 1.25;
+   color: #212B36;
+}
+
+.article-title-smaller {
+   font-weight: 600;
+   font-size: 20px;
+   line-height: 1.3;
+   color: #212B36;
+}
+
+.text {
+   font-weight: 600;
+   font-size: 16px;
+   line-height: 1.5;
+   color: #637381;
+}
+
+.text-blue {
+   color: #3056D3;
+}
+
+.title {
+   font-weight: 700;
+   font-size: 40px;
+   line-height: 1.12;
+   text-align: center;
+   text-transform: capitalize;
+   color: #212B36;
+}
+
+.price {
+   font-weight: 600;
+   color: #212B36;
+}
+
+
+.price-blue {
+   color: #3056D3;
+   font-weight: 700;
+}
