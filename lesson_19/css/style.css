@@ -159,7 +159,7 @@
    display: grid;
    border-top: 1px solid #E7E7E7;
    text-align: center;
-   justify-content: center;
+   justify-content: space-between;
    grid-template-columns: 1fr 0.1fr;
    align-items: center;
 }
@@ -177,10 +177,10 @@
 
 .rate {
    display: flex;
-   justify-content: center;
    align-items: center;
    flex-wrap: wrap;
    gap: 5px;
+   padding-left: 25px;
 }
 
 .treding-products {
@@ -1125,6 +1125,11 @@
 
    .categories__text-head {
       justify-self: center;
+   }
+
+   .rate {
+      padding: 5px;
+      justify-content: center;
    }
 }
 
