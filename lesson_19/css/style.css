@@ -274,7 +274,6 @@
 
 .stars {
    display: grid;
-   grid-auto-rows: column;
    grid-auto-flow: column;
 }
 
