@@ -278,12 +278,19 @@ body {
 
 .slider {
   display: grid;
+  -ms-flex-line-pack: end;
+      align-content: end;
   gap: 15px;
+  height: 100vh;
 }
 
 .main__slider {
-  padding-top: 430px;
-  padding-bottom: 200px;
+  padding-bottom: 12.5rem;
+}
+@media (max-width: 117.5rem) {
+  .main__slider {
+    padding-bottom: 6.25rem;
+  }
 }
 .main__slider .slider__title {
   font-weight: 700;

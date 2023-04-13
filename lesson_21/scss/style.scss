@@ -194,11 +194,15 @@ body {
 }
 .slider {
    display: grid;
+   align-content: end;
    gap: 15px;
+   height: 100vh;
 }
 .main__slider {
-   padding-top: 430px;
-   padding-bottom: 200px;
+   padding-bottom: rem(200);
+   @media (max-width:rem(1880)) {
+      padding-bottom: rem(100);
+   }
    .slider__date {
    }
    .slider__title {
