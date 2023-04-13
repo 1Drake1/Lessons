@@ -253,7 +253,7 @@ body {
       .contacts {
          padding-bottom: rem(40);
          margin-bottom: rem(40);
-         border-bottom: 1px solid rgba(229, 229, 229, 0.2);
+         border-bottom: rem(1) solid rgba(229, 229, 229, 0.2);
          @media (max-width:rem(600)) {
             padding-bottom: rem(20);
             margin-bottom: rem(20);
@@ -314,15 +314,14 @@ body {
          color: rgba(248, 249, 250, 0.5);
          display: flex;
          justify-content: space-between;
-         gap: 15px;
+         gap: rem(15);
          @media (max-width:rem(785.98)) {
             flex-wrap: wrap;
             justify-content: center;
          }
       }
    }
-}
-            
+}           
 .logo {
    font-weight: 700;
    font-size: rem(18);
