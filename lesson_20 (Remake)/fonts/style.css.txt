@@ -1,8 +1,0 @@
-@font-face {
-   font-family: 'Gilroy';
-   src:
-      url('Gilroy-Black.woff2') format('woff2'),
-      url('Gilroy-Black.woff') format('woff');
-   font-weight: 900;
-   font-style: normal;
-}
