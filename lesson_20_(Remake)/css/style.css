@@ -1201,13 +1201,6 @@ body {
 }
 
 @media (any-hover: hover) {
-  .list-brand__item:hover {
-    background: #F0F2F2;
-  }
-  .button:hover {
-    background: #0c0c0c;
-    color: #fff;
-  }
   .head__item:hover .image-wrapper-big::after {
     opacity: 1;
   }

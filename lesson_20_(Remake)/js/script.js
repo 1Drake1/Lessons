@@ -6,6 +6,21 @@ function pageLoaded() {
    document.documentElement.classList.add('loaded')
 }
 
+const items = document.querySelectorAll('.list-brand__item')
+
+items.forEach(item => {
+   item.addEventListener('click', addActive)
+   function addActive(e) {
+      const hasActive = item.classList.contains('active')
+      if (hasActive) {
+         item.classList.remove('active')
+      } else {
+         item.classList.add('active')
+      }
+      e.preventDefault()
+   }
+})
+
 let options = {
    root: null,
    rootMargin: '0px',
