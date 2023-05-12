@@ -1207,6 +1207,10 @@ body {
   .head__item:hover .image-wrapper::after {
     opacity: 1;
   }
+  .button:hover {
+    background: #0c0c0c;
+    color: #fff;
+  }
   .content-item:hover .content-item__name {
     color: #cfa3e0;
   }

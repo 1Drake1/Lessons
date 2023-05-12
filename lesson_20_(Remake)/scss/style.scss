@@ -861,6 +861,12 @@ transition: all 0.8s;
          }
       }
    }
+   .button {
+      &:hover {
+         background: #0c0c0c;
+         color: #fff;
+      }
+   }
    .content-item {
       &:hover {
          .content-item__name {
