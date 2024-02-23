@@ -1,0 +1,27 @@
+.main__container {
+   max-width: 1200px;
+   margin: 0 auto;
+   background-color: #fff;
+}
+.main__body {
+   max-width: 800px;
+   margin: 0 auto;
+   padding: 20px 0;
+   text-align: center;
+}
+.main__name {
+   margin: 0 0 20px 0;
+   font-weight: 800;
+   font-size: 21px;
+   text-transform: capitalize;
+   text-align: left;
+}
+.main__text {
+   display: flex;
+   flex-direction: column;
+   gap: 25px;
+   margin: 20px 0;
+   color: #8f8a8a;
+   line-height: 25px;
+   text-align-last: left;
+}

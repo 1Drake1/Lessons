@@ -1,0 +1,37 @@
+.main__container {
+   max-width: 1200px;
+   margin: 0 auto;
+   background-color: #fff;
+}
+.main__body {
+   max-width: 800px;
+   margin: 0 auto;
+   padding: 20px 0;
+   text-align: center;
+}
+.main__name {
+   margin: 0 0 20px 0;
+   font-weight: 800;
+   font-size: 21px;
+   text-transform: capitalize;
+   text-align: left;
+}
+.main__text {
+}
+
+.main__list {  
+   gap: 25px;
+   margin: 20px 0;
+   color: #d8c2c2;
+   line-height: 25px;
+   text-align: left;
+   font-size: 25px;
+}
+.main__items-list {
+   display: flex;
+   flex-direction: column;
+   align-self: start;
+   gap: 20px;
+}
+.main__item {
+}
